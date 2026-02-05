@@ -2,17 +2,15 @@
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": __PORT__,
+      "port": 3000,
       "protocol": "vless",
       "settings": {
-        "clients": [{ "id": "__UUID__" }],
+        "clients": [{ "id": "823b3052-b143-4412-88e0-750e7be5f990" }],
         "decryption": "none"
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": {
-          "path": "__PATH__"
-        }
+        "wsSettings": { "path": "/ws" }
       }
     }
   ],
